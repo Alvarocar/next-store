@@ -1,0 +1,16 @@
+.Hero {
+  > h1 {
+    font-size: 6rem;
+    text-align: center;
+    letter-spacing: 0.05em;
+    background-image: $gradient;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1rem;
+  }
+
+  > h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+}

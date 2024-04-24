@@ -1,0 +1,22 @@
+.Description {
+  display: flex;
+  gap: 1rem;
+}
+
+.Horizontal {
+  //flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.Section {
+  width: 20rem;
+  h3 {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+  }
+  p {
+    line-height: 1.8;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+}
