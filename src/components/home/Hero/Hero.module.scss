@@ -1,15 +1,17 @@
+@use "/src/sass/variables" as v;
+
 .Hero {
-  > h1 {
+  &__title {
     font-size: 6rem;
     text-align: center;
     letter-spacing: 0.05em;
-    background-image: $gradient;
+    background-color: v.$contrast-2;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 1rem;
   }
 
-  > h2 {
+  &__legend {
     font-size: 2rem;
     text-align: center;
   }

@@ -1,3 +1,5 @@
+@use "/src/sass/variables" as v;
+
 .Header {
   display: flex;
   flex-flow: row nowrap;
@@ -12,7 +14,7 @@
     padding: 2rem;
     justify-content: center;
     & > li a {
-      color: $text-color;
+      color: v.$text-color;
       text-decoration: none;
       font-size: 1.2rem;
       font-weight: 400;
@@ -25,7 +27,7 @@
     align-items: center;
     column-gap: 1rem;
     & a {
-      color: $text-color;
+      color: v.$text-color;
       text-decoration: none;
       font-size: 1.2rem;
       font-weight: 400;
