@@ -7,8 +7,8 @@ export default function HomeLayout({ children }: React.PropsWithChildren) {
   return (
     <main className={styles.Home}>
       <Hero>
-        <h1>Future World</h1>
-        <h2>Empowering Your Tomorrow, Today!</h2>
+        <Hero.Title>Tienda de Tecnolog&iacute;a</Hero.Title>
+        <Hero.Legend>Empowering Your Tomorrow, Today!</Hero.Legend>
       </Hero>
       <Description>
         <h3> una descripci&oacute;n </h3>

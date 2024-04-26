@@ -64,3 +64,7 @@ type CartItem = {
   quantity: number;
   id: string;
 };
+
+type ReactFC<T = undefined> = React.FC<
+  T extends undefined ? React.PropsWithChildren : T
+>;
