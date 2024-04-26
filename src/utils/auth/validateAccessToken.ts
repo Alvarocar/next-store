@@ -7,6 +7,7 @@ export const validateAccessToken = async (): Promise<
 > => {
   const cookieStore = cookies();
   const accessToken = cookieStore.get("accessToken")?.value;
+  if (accessToken == null) return;
   try {
     const { customer } = await graphQLShopify.request<any>(customerName, {
       customerAccessToken: accessToken,
